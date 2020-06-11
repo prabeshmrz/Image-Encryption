@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+    <div class="w-full h-full bg-gray-200 flex flex-col items-center box-border pt-12">
+
+        <h2 class="font-bold text-gray-600 text-2xl mb-5">Image Decrypted : : {{ caption }}</h2>
+        <img style="height: 550px" src="/{{ image }}"/>
+
+    </div>
+
+{% endblock %}

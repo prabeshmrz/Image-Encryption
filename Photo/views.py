@@ -100,7 +100,7 @@ class DecryptImage(View):
             return render(request, self.template_form, context)
 
     def thread_function(self):
-        time.sleep(3)
+        time.sleep(10)
         os.remove(self.image)
 
 
